@@ -356,7 +356,7 @@ if LocalPLR.Name ~= Username then
         -- PRINTCMDS:
         if msg:sub(1, 10) == Prefix .. "printcmds" then
 
-            print("\n---------- NOAH'S ALT CONTROL CMDS ----------\n" .. request({ Url = "https://raw.githubusercontent.com/sixpennyfox4/rbx/refs/heads/main/ControlBoZt%20Cmds.txt", Method = "GET" }).Body)
+            print("\n---------- NOAH'S ALT CONTROL CMDS ----------\n" .. request({ Url = "https://raw.githubusercontent.com/sixpennyfox4/rbx/refs/heads/main/ControlBotZ%20Cmds.txt", Method = "GET" }).Body)
             if index == 1 then
                 chat("Printed commands to the console!")
             end
